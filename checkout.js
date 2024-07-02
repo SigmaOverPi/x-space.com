@@ -19,5 +19,5 @@ function checkout() {
       params.append('price', food.price);
     });
   
-    window.location.href = `http://127.0.0.1:5000/out.html?${params.toString()}`;
+    window.location.href = `/out.html?${params.toString()}`;
   }
