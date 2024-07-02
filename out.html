@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="out.css">
+</head>
+<body>
+    <div style="background-color:cadetblue;padding:5%;">
+        <h1 style="color:white; text-align:center;position:relative;top:5%;"> Checkout</h1>
+        <hr style=" border:2px solid black;">
+    </div>
+    <div id="order-summary" style="text-align: center; font-family:'Times New Roman', Times, serif;">
+    </div>
+    <div class="pay_for" style="background-color:cadetblue;padding:10%;">
+      <select name="links" id="" size="1" onchange="window.location.href= this.value;" style="width: 200px; height:50px;">
+          <option value="" style="font-size: 20px">pay with</option>
+          <option value="http://127.0.0.1:5000/resem.html" style="font-size: 20px;">Meal plan</option>
+          <option value="http://127.0.0.1:5000/exemple.html"style="font-size: 20px">MoMo</option>
+      </select>
+  </div>
+</div>
+<script src="order-summary.js"></script>
+</body>
+</html>

@@ -1,0 +1,435 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+.background::before
+{content: '';
+    background-image: linear-gradient(45deg, rgba(86, 37, 37, 0.5), rgba(12, 11, 8, 0.5), rgba(0, 0, 255, 0.5)), url(./Ashesi_Admissions_Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.90;
+}
+h1 {
+    color:white;
+    text-align: center;
+    padding-top: 120px;
+    opacity: 0.89;
+    margin-bottom: 90px;
+}
+h1 {
+    font-size: 3.2em;
+}
+.paragraph{ opacity: 0.90;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    color:white;
+    margin-bottom: 60px;
+}
+
+.css{
+    text-align: left;
+    position: absolute;
+    inset: -5px 0px 0px;
+    margin: 0px;
+    padding: 0px 8px;
+    pointer-events: none;
+    border-radius: inherit;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    min-width: 0%;
+    border-color: rgba(0, 0, 0, 0.23);
+}
+.ic-Label {
+    opacity: 0.89;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0 0 6px;
+    display: block;
+    line-height: 1.3;
+    font-weight: bold;
+    font-size: 16px;
+    font-size: 1rem;
+    border-color: azure;
+}
+.cont{
+    position: absolute;
+    left:50%; 
+      
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+
+}
+input{
+ box-sizing: border-box;
+ height: 60px;
+ width: 0px;
+ outline: none;
+ padding: 0 20px;
+ color:black;
+ font-size: 20px;
+ border: 2px solid black;
+ border-radius: 50px;
+ transition: all 0.7s ease;
+}
+::placeholder {
+    color:grey;
+}
+.btn{
+    position:absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn i{
+    font-size: 25px;
+    line-height: 80px;
+    color:black;
+    transition: all 0.7s ease;
+
+}
+button { color: white;
+    border-radius: 8px;
+    border: 1px solid ;
+    padding: .6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color:white;
+    cursor: pointer;
+    transition: border-color .25s;
+}
+.css-1cjvswr > .MuiTab-iconWrapper {
+    margin-bottom: 6px;
+}
+.css-vubbuv{
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+.button {
+    padding-top: 6%;
+    margin-left:25%;
+    opacity: 0.89;
+
+
+}
+::-webkit-input-placeholder{
+    color: black;
+}
+:focus::-webkit-input-placeholder{
+    opacity: 0,5;
+}
+.cont:hover input{
+    width: 350px ;
+}
+.cont:hover i{
+    transform: rotate(-350deg);
+}
+
+.prof{
+    padding: 0 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+.prof{
+    margin: 50px 0;
+}
+
+.css-w0pj6f {
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+    border-radius: inherit;
+}
+
+lement.style {
+    overflow-x: hidden;
+}
+element.style {
+    flex-direction: row;
+    transition: transform 0.35s cubic-bezier(0.15, 0.3, 0.25, 1) 0s;
+    direction: ltr;
+    display: flex;
+    will-change: transform;
+    transform: translate(0%, 0px);
+}
+element.style {
+    width: 100%;
+    flex-shrink: 0;
+    overflow: auto;
+}
+.css-19kzrtu {
+    padding: 24px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.css-1p4khqw {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.Bas{position: absolute;
+    left: 10px;
+    background-color: antiquewhite;
+    display: block;
+    padding: 10%;
+}
+.hide{
+    background-color: black;
+    padding: 3%;
+}
+.ouf{
+    width: 15%;
+    height: 137%;
+    position: absolute;
+    right: 40%;
+    background-color: antiquewhite;
+    display: block;
+    padding: 10%;
+}
+
+.r{ 
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    left:10%;
+    color: black;
+}
+.v{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.n{
+    width: 200px;
+    position: absolute;
+    left: 0%;
+    top: 120%;
+}
+.n select{
+    height: 42px;
+    padding: 10px 15px;
+    line-height: 22px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    -webkit-appearance:none;
+    appearance: none;
+}
+.n:after{
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    margin-top: -4px;
+    border-top: 8px solid black;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent ;
+    pointer-events: none;
+}
+.n select:focus{
+    border:2px solid white;
+
+}
+h2{
+    font-size: 15px;
+    position: absolute;
+    top: 114%;
+    left: 11%;
+    background-color: black;
+    color: white;
+}
+.if {
+        width: 15%;
+        height: 137%;
+        position: absolute;
+        right: 17%;
+        background-color: antiquewhite;
+        display: block;
+        padding: 10%;
+    }
+
+    .j{
+        width: 100px;
+        position: absolute;
+        left: 6%;
+        top: 4%;
+    }
+    .j select{
+        height: 42px;
+        padding: 10px 15px;
+        line-height: 22px;
+        font-size: 16px;
+        width: 100%;
+        border: 2px solid blue;
+        border-radius: 8px;
+        -webkit-appearance:none;
+        appearance: none;
+    }
+    .j:after{
+        content: '';
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        margin-top: -4px;
+        border-top: 8px solid rgb(27, 10, 82);
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent ;
+        pointer-events: none;
+    }
+    .j select:focus{
+        border:2px solid white;
+    }
+    
+
+       
+
+    .fin{
+        padding: 4%;
+        background-color: white
+
+    }
+    .n{
+        width: 200px;
+        position: absolute;
+        left: 0%;
+        top: 120%;
+    }
+    .n select{
+        height: 42px;
+        padding: 10px 15px;
+        line-height: 22px;
+        font-size: 16px;
+        width: 100%;
+        border: 2px solid black;
+        border-radius: 8px;
+        -webkit-appearance:none;
+        appearance: none;
+    }
+    .n:after{
+        content: '';
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        margin-top: -4px;
+        border-top: 8px solid black;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent ;
+        pointer-events: none;
+    }
+    .n select:focus{
+        border:2px solid white;
+    
+    }
+    h2{
+        font-size: 15px;
+        position: absolute;
+        top: 114%;
+        left: 11%;
+        background-color: black;
+        color: white;
+    }
+    .container {
+        color: #929893;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .tab-button {
+        background-color: #929c92;
+        color: white;
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .tab-button:hover {
+        background-color: #788078;
+    }
+    
+    .tab-content {
+        display: none;
+        padding: 40px;
+        background-color: rgb(238, 238, 238);
+        margin-top: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .profile-info {
+        text-align: left;
+        margin: 20px;
+    }
+    
+    .profile-info h2,
+    .profile-info p {
+        color: #b03430;
+        margin: 0;
+        padding: 5px 0;
+    }
+    
+    .profile-info .balance-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .balance-info div {
+        text-align: center;
+    }
+    
+    .balance-info .value {
+        font-size: 24px;
+        color: #b03430;
+    }
+    
+    .balance-info .amount {
+        font-size: 48px;
+        color: #b03430;
+    }
+  
